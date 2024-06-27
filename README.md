@@ -21,6 +21,9 @@ This project is a web-based workflow system to capture customer information and 
     ```
 3. Install the required packages:
     ```
+    flask
+    sudo apt install python3 python3-pip
+    pip install Flask
     pip install pandas
     pip install matplotlib
     pip install openpyxl --upgrade
