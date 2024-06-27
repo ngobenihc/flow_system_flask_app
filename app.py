@@ -35,7 +35,7 @@ def upload_file():
         # Process the file and generate a graph
         data = pd.read_excel(file_path)
         plt.figure()
-        data.plot(x='Month', y=['Income', 'Expenses'], kind='bar')
+        data.plot(x='Month', y=['Income', 'Expenses'], kind='line')
         graph_path = os.path.join(STATIC_FOLDER, 'graph.png')
         plt.savefig(graph_path)
 
